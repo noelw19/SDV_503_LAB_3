@@ -25,7 +25,7 @@
 console.log(grade);*/
 
 let grade;
-let marks = 69;
+let marks = 39;
 let result;
 
 switch(true){
@@ -73,3 +73,15 @@ if(grade == "A+" || grade == "A" || grade == "A-"){
 }
 
 console.log(result + " " + grade + "!");
+
+
+/*Ternary 
+
+let bartender = {
+    name: "Johnny",
+    skilled: null,
+    flair: "yes"
+};
+
+bartender.skilled = bartender.flair == "yes":*/
+
