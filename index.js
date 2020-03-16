@@ -25,12 +25,13 @@
 console.log(grade);*/
 
 let grade;
-let marks = 49;
-
+let marks = 69;
+let result;
 
 switch(true){
     case (marks <= 100 &&  marks >= 85):
         grade = "A+";
+        result 
         break;
     case (marks >= 80 && marks <= 84):
         grade = "A";
@@ -61,4 +62,14 @@ switch(true){
         break;
 }
 
-console.log(grade);
+if(grade == "A+" || grade == "A" || grade == "A-"){
+    result = "Passed with distinction! You got an"
+}else if(grade == "B+" || grade == "B" || grade == "B-"){
+    result = "Passed with merit! You got a";
+}else if(grade == "C+" || grade == "C"){
+    result = "Passed! You got a ";
+}else{
+    result = "Failed! Try again! You got a ";
+}
+
+console.log(result + " " + grade + "!");
