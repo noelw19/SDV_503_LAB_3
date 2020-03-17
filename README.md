@@ -35,3 +35,4 @@ below the switch statement I inserted an if else statement to take the variable 
 
 LAB 3 Repo: https://github.com/noelw19/SDV_503_LAB_3/settings
 
+The reason for the late submit was I was looking to try and impement the ternary operator, but considering i missed the submit timeframe i decided against it. 
