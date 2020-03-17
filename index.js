@@ -23,10 +23,11 @@
 }
 
 console.log(grade);*/
-
 let grade;
-let marks = 39;
+let marks = 49;
 let result;
+
+
 
 switch(true){
     case (marks <= 100 &&  marks >= 85):
@@ -75,7 +76,7 @@ if(grade == "A+" || grade == "A" || grade == "A-"){
 console.log(result + " " + grade + "!");
 
 
-/*Ternary 
+//Ternary
 
 let bartender = {
     name: "Johnny",
@@ -83,5 +84,13 @@ let bartender = {
     flair: "yes"
 };
 
-bartender.skilled = bartender.flair == "yes":*/
+bartender.skilled = bartender.flair == "yes" ? "yes" : "no";
+
+console.log(bartender.skilled);
+
+/* with the above example i find it easier to read as "if bartender flair equals yes, append the
+bartender skilled property with yes, if the flair property does not equal yes then append the 
+skilled property to no" */
+
+
 
